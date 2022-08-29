@@ -1,20 +1,28 @@
-# NodeMCU-PyFlasher
-The NodeMCU PyFlasher Tool for ESP8266 ESP12E Module created by Marcel Stoer
+<h1> NodeMCU-PyFlasher </h1>
+<p>The NodeMCU PyFlasher Tool for ESP8266 ESP12E Module created by Marcel Stoer</p>
 
-Download this repository
-Download NodeMCU Firmware or use the Firmware in this repository
+<ul>
+  <li>Download this repository</li>
+  <li>Download NodeMCU Firmware or use the Firmware (.bin) in this repository</li>
+</ul>
 
-Install Pyhon
-Install esptool
-Install wxPython
+<ol>
+  <li>Install Python</li>
+  <li>Install esptool</li>
+  <li>Install wxPython</li>
+</ol>
 
-Open Python folder in CMD e.g C:\AppData\Local\Programs\Python\Python310\Scripts>
-erase flash using CMD wia command "esptool.exe --port COM7 --baud 115200 erase_flash"
+<ul>
+  <li>Open Python folder in CMD e.g C:\AppData\Local\Programs\Python\Python310\Scripts</li>
+  <li>erase flash using CMD wia command "esptool.exe --port COM7 --baud 115200 erase_flash"</li>
+</ul>
 
-Run nodemcu_pyflasher.py
-Select Port
-Select NodeMCU Firmware
-Use 115200
-DIO
+<ol>
+  <li>Run nodemcu_pyflasher.py</li>
+  <li>Select Port</li>
+  <li>Select NodeMCU Firmware</li>
+  <li>Use 115200</li>
+  <li>DIO</li>
+</ol>
 
-Flash NodeMCU
+Select Flash NodeMCU
